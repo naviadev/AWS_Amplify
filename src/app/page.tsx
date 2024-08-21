@@ -1,9 +1,10 @@
-import Image from "next/image";
-
-export default function Home() {
+"use client";
+import Game from "@/components/game";
+const Home = () => {
   return (
     <div>
-      <button>Roll</button>
+      <Game></Game>
     </div>
   );
-}
+};
+export default Home;
